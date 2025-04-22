@@ -7,3 +7,20 @@ packages:
   gitUrl: https://github.com/Somasekhar-K-IBM
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
+- name: Io_RsaFwk_Utilties_Test
+  version: "1.0"
+  gitServerName: SomaIBM
+  gitUrl: https://github.com/ibm-webmethods
+  gitUsername: Somasekhar-K-IBM
+  gitBranch: main
+services:
+- serviceName: project.importtest1.integrations:DafAddInt
+  packages:
+  - name: ImportTest1Project
+    version: "1.0"
+  - name: Io_RsaFwk_Utilties_Test
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2048
