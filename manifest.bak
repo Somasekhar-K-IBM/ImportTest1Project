@@ -11,10 +11,13 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <null name="build"/>
+  <value name="build">1</value>
   <null name="description"/>
   <value name="created_date">22-04-2025 14:31:58 GMT</value>
   <null name="extendedProperties"/>
-  <value name="target_server_version">11.1.0.0</value>
+  <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
+  <value name="lastUpdated">2025-04-22T14:32:02.211320197Z</value>
+  <value name="wmProjectId">fldee9dc4e63521e4256809a</value>
+  <value name="creator">webMethodsIntegration Administrator</value>
 </Values>
