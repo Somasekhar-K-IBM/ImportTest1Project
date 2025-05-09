@@ -8,7 +8,6 @@ packages:
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
 - name: Io_RsaFwk_Utilties_Test
-  version: "1.0"
   gitServerName: SomaIBM
   gitUrl: https://github.com/ibm-webmethods
   gitUsername: Somasekhar-K-IBM
