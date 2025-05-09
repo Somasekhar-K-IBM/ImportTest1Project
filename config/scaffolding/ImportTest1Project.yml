@@ -23,4 +23,14 @@ services:
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2048
+    version: 11.1.0.0.2055
+- serviceName: project.importtest1.integrations:DafFlowWithCustomPackage
+  packages:
+  - name: ImportTest1Project
+    version: "1.0"
+  - name: Io_RsaFwk_Utilties_Test
+    version: "1.0"
+- serviceName: java:addNums
+  packages:
+  - name: Io_RsaFwk_Utilties_Test
+    version: "1.0"
