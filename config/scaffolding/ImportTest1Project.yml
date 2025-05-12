@@ -8,6 +8,7 @@ packages:
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
 - name: Io_RsaFwk_Utilties_Test
+  version: "1.0"
   gitServerName: SomaIBM
   gitUrl: https://github.com/ibm-webmethods
   gitUsername: Somasekhar-K-IBM
@@ -33,3 +34,13 @@ services:
   packages:
   - name: Io_RsaFwk_Utilties_Test
     version: "1.0"
+- serviceName: project.importtest1.integrations:DafTest1
+  packages:
+  - name: ImportTest1Project
+    version: "1.0"
+  - name: Io_RsaFwk_Utilties_Test
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
