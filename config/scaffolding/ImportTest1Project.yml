@@ -14,7 +14,7 @@ packages:
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
 services:
-- serviceName: project.importtest1.integrations:DafAddInt
+- serviceName: project.importtest1.integrations:DAFTest12
   packages:
   - name: ImportTest1Project
     version: "1.0"
@@ -24,6 +24,12 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2056
+- serviceName: project.importtest1.integrations:DafAddInt
+  packages:
+  - name: ImportTest1Project
+    version: "1.0"
+  - name: Io_RsaFwk_Utilties_Test
+    version: "1.0"
 - serviceName: project.importtest1.integrations:DafFlowWithCustomPackage
   packages:
   - name: ImportTest1Project
