@@ -6,7 +6,7 @@ packages:
   gitServerName: SomaIBM
   gitUrl: https://github.com/Somasekhar-K-IBM
   gitUsername: Somasekhar-K-IBM
-  gitBranch: main
+  gitBranch: testing
 - name: Io_RsaFwk_Utilties_Test
   version: "1.0"
   gitServerName: SomaIBM
