@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <null name="startup_services"/>
@@ -9,17 +9,18 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="Io_RsaFwk_Utilties_Test">1.0</value>
+    <value name="WmAmazonAuroraProvider">10.1.0.0.10</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">20</value>
+  <value name="build">21</value>
   <null name="description"/>
   <value name="created_date">22-04-2025 14:31:58 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-05-14T06:51:50.111349757Z</value>
+  <value name="lastUpdated">2025-06-11T09:48:32.668001988Z</value>
   <value name="wmProjectId">fldee9dc4e63521e4256809a</value>
   <value name="creator">webMethodsIntegration Administrator</value>
 </Values>

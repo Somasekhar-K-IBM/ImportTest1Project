@@ -13,6 +13,10 @@ packages:
   gitUrl: https://github.com/ibm-webmethods
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
+- name: WmAmazonAuroraProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+  wpmVersion: v10.1.0
 services:
 - serviceName: project.importtest1.integrations:DafAddInt
   packages:
