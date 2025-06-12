@@ -11,7 +11,7 @@ packages:
   version: "1.0"
   gitServerName: SomaIBM1
   gitUrl: https://github.com/ibm-webmethods
-  gitUsername: Somasekhar-K-IBM1
+  gitUsername: Somasekhar-K-IBM
   gitBranch: main
 services:
 - serviceName: project.importtest1.integrations:DafAddInt
