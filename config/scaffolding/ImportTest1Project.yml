@@ -9,9 +9,9 @@ packages:
   gitBranch: release/testing
 - name: Io_RsaFwk_Utilties_Test
   version: "1.0"
-  gitServerName: SomaIBM1
+  gitServerName: SomaIBM
   gitUrl: https://github.com/ibm-webmethods
-  gitUsername: Somasekhar-K-IBM
+  gitUsername: Somasekhar-K-IBM1
   gitBranch: main
 services:
 - serviceName: project.importtest1.integrations:DafAddInt
