@@ -23,7 +23,7 @@ services:
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2055
+    version: 11.1.0.0.2076
 - serviceName: project.importtest1.integrations:DafFlowWithCustomPackage
   packages:
   - name: ImportTest1Project
@@ -43,4 +43,4 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2055
+    version: 11.1.0.0.2076
