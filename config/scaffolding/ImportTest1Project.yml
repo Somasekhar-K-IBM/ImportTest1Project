@@ -2,17 +2,21 @@ version: "1.0"
 info:
   model: int-scaffold
 packages:
-- name: ImportTest1Project
-  gitServerName: SomaIBM
-  gitUrl: https://github.com/Somasekhar-K-IBM
-  gitUsername: Somasekhar-K-IBM
-  gitBranch: release/testing
+- name: WmAmazonAuroraProvider
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
+  wpmVersion: v10.1.0
 - name: Io_RsaFwk_Utilties_Test
   version: "1.0"
   gitServerName: SomaIBM
   gitUrl: https://github.com/ibm-webmethods
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
+- name: ImportTest1Project
+  gitServerName: SomaIBM
+  gitUrl: https://github.com/Somasekhar-K-IBM
+  gitUsername: Somasekhar-K-IBM
+  gitBranch: testing
 services:
 - serviceName: project.importtest1.integrations:DafAddInt
   packages:
@@ -23,7 +27,7 @@ services:
 - serviceName: pub.math:addInts
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2076
+    version: 11.1.0.0.2056
 - serviceName: project.importtest1.integrations:DafFlowWithCustomPackage
   packages:
   - name: ImportTest1Project
@@ -34,7 +38,7 @@ services:
   packages:
   - name: Io_RsaFwk_Utilties_Test
     version: "1.0"
-- serviceName: project.importtest1.integrations:DafTest1
+- serviceName: project.importtest1.integrations:DafTest11
   packages:
   - name: ImportTest1Project
     version: "1.0"
@@ -43,4 +47,4 @@ services:
 - serviceName: pub.date:getCurrentDate
   packages:
   - name: WmPublic
-    version: 11.1.0.0.2076
+    version: 11.1.0.0.2056
