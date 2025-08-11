@@ -3,7 +3,7 @@ info:
   model: int-scaffold
 packages:
 - name: ImportTest1Project
-  gitServerName: SomaIBM1
+  gitServerName: SomaIBM
   gitUrl: https://github.com/Somasekhar-K-IBM
   gitUsername: Somasekhar-K-IBM
   gitBranch: main
