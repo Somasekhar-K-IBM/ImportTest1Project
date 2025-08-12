@@ -8,9 +8,9 @@ packages:
   wpmVersion: v10.1.0
 - name: Io_RsaFwk_Utilties_Test
   version: "1.0"
-  gitServerName: SomaIBM
+  gitServerName: SomaIBM1
   gitUrl: https://github.com/ibm-webmethods
-  gitUsername: Somasekhar-K-IBM
+  gitUsername: Somasekhar-K-IBM1
   gitBranch: main
 - name: WmSalesforceProvider
   wpmServer: https://packages.webmethods.io
